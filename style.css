@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+background-color: #129799;
+height: 65vh;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.textLogo {
+display: flex;
+position: relative;
+top: 50px;
+}
+
+footer {
+    background-color: #129799;
+height: 28vh;
+}
+
+.list, .itens{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleHeader {
+    padding-left: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #FFA185;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.titleMain {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 40px 30px 0 30px;
+}
+
+.pMain {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+}
+
+.seeMore {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    padding: 2rem;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    padding: 3rem;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+    padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listFooter2, .itensFooter2 {
+    display: flex;
+    color: white;
+    margin-right: 2rem ;
+    font-size: 1.3rem;
+}
+
+.listFooter, .itensFooter {
+    display: flex;
+    justify-content: start;
+    margin-right: 1rem;
+}
+.divFooter {
+    display: flex;
+}
+
+.batida {
+position: relative;
+bottom: 24px;
+right: 24px;
+}
+
+.navigationOne {
+    margin-bottom: 10px;
+}
+
+.navigationTwo {
+    margin-top: 50px;
+}
+
+.copy {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-color: #129799;
+        height: 60vh;
+        width: 150vw;
+    }
+    main {
+        width: 150vw;
+    }
+    .navigationOne {
+        display: none;
+    }
+    .batida {
+        display: none;
+        }
+ .list, .itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+    .navigationTwo {
+        width: 150vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 150px;
+        bottom: 50px;
+    }
+    .titleHeader {
+        font-size: 1.5rem;
+
+    }
+
+    .pMain, .textMain, .titleMain {
+       font-family: Arial, Helvetica, sans-serif;
+       padding: 10px 0 0 0;
+       margin: 0px 0 15px 15px;
+       width: 100vw;
+    }
+    .pMain {
+        width: 80%;
+    }
+    .sections {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 120vw;
+    }
+    footer {
+        width: 150vw;
+        height: 70vh;
+    }
+    .nav1, .listFooter, .itensFooter {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .nav2, .listFooter2, .itensFooter2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-bottom: 1rem;
+    }
+}
